@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px){
+    .content_container_second .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .content_container_second .container .content_wrap_gra{
+        margin-bottom: 20px;
+    }
+    .contact .contact_row{
+        justify-content: center;
+    }
+    .list .container{
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding-top: 15px;
+    }
+    .list_item ul li {
+        flex: 1 0 100%;
+    }
+}
+@media screen and (max-width: 460px){
+    .welcome_content h1{
+        font-size: 36px;
+    }
+}
